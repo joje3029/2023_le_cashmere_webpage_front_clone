@@ -78,8 +78,37 @@ li{
     width: 505px;
 }
 .clothes>div>img{
-    width: 505px;
+    width: 620px;
 }
+
 .clothes{
-    width: 1200px;
+    border: 5px solid black;
+    width: 1260px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.clothes>div{
+    text-align: center;
+    /* padding: 30px 0px; */
+}
+
+.woman_img_parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.woman_img{
+    width: 1260px;
+    height: 430px;
+}
+
+main{
+    position: relative;
 }
