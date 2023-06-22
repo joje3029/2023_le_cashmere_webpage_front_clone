@@ -56,10 +56,6 @@ li{
     padding: 10px 0px;
 }
 
-.coment{
-    background-color: lightgray;
-}
-
 .footer_etc{
     width: 100%;
     display: flex;
@@ -106,7 +102,7 @@ li{
 }
 
 .woman_img{
-    width: 1260px;
+    width: 1380px;
     height: 430px;
     margin-top: 930px;
 }
@@ -125,8 +121,41 @@ main{
 }
 
 .men{
-    width: 520px;
+    width: 500px;
 }
 .kids{
-    width: 800px;
+    width: 850px;
+    position: relative;
 }
+
+.le_series_parent{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.le_series{
+    width: 1400px;
+}
+
+.le_series:hover{
+    width: 1400px;
+    overflow: hidden;
+}
+
+button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 300px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
